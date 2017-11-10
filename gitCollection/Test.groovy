@@ -6,6 +6,6 @@ String URL='jdbc:mysql://localhost:3306/testDB';
 String username='root'
 String password='admin'
 def connection = Sql.newInstance(URL,username,password)
-
+println "hi"
 }
 }
