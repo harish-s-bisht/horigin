@@ -22,21 +22,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListManipulation.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListManipulation.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/src/groovy/ListManipulation.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WritingInFile.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WritingInFile.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/src/groovy/WritingInFile.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -337,12 +337,12 @@
       <option name="presentableId" value="Default" />
       <updated>1510576627206</updated>
       <workItem from="1510576629972" duration="3124000" />
-      <workItem from="1510636895426" duration="1300000" />
+      <workItem from="1510636895426" duration="2280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4424000" />
+    <option name="totallyTimeSpent" value="5404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -422,14 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/src/groovy/WritingInFile.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/src/groovy/ListManipulation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -449,7 +441,15 @@
     <entry file="file://$PROJECT_DIR$/src/com/src/groovy/ListManipulation.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/src/groovy/WritingInFile.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
           <folding />
         </state>
       </provider>

@@ -5,6 +5,7 @@ class ListManipulation {
         def list=[1,2,3,4,5]
         Scanner scan = new Scanner(System.in)
         int num=0;
+
         println "Enter Number To Be Searched.."
         num = scan.nextInt()
         if(list.find{it==num}){
@@ -13,5 +14,9 @@ class ListManipulation {
         }else{
             println "No Such Element Found.."
         }
+        println "Sum Of All Elements In List "+ list.sum()
+
+        println list.any{it<5}
+        println list.every{it>5}
     }
 }
