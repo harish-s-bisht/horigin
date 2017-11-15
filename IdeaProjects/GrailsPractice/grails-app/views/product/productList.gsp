@@ -26,7 +26,7 @@
     <div class="inline">Product Price</div>
     <g:each in="${product}" var="prod">
 
-        <div>${prod.productName}
+        <div>${prod.name}
         <span class="m-l-10">${prod.price}</span></div>
     </g:each>
 

@@ -2,6 +2,8 @@ package grailspractice
 
 import grails.transaction.Transactional
 
+import java.sql.*;
+
 //@Transactional
 class ProductService {
 
@@ -9,15 +11,23 @@ class ProductService {
 
     }
     List<Product> getAllProducts(){
+
+
         List<Product> list = new ArrayList<Product>()
-        Product p1 = new Product("POS",1520.50);
-        Product p2 = new Product("POS2",1550.50);
-        Product p3 = new Product("POS3",1720.50);
-        Product p4 = new Product("POS4",1420.50);
-        list.add(p1)
-        list.add(p2)
-        list.add(p3)
-        list.add(p4)
-        return list
+        def criteria = Product.createCriteria()
+        list = criteria.list {
+            gt("id",0L)
+        }
+       return list
+    }
+
+    def addProduct(Product product){
+        product.save(flush: true)
+        if(!product.save()){
+            product.errors.allErrors.each{
+                println it
+            }
+        }
+
     }
 }

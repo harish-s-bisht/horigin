@@ -18,6 +18,15 @@
 
 <body>
 
-<a href="listProducts">List Product</a>
+<div><a href="listProducts">List Product</a></div>
+<div> Add product details</div>
+<div>
+    <g:form method="POST" action="addProduct">
+        <div><label>Name</label><g:textField name="name" value="${name}"></g:textField></div>
+        <div><label>Price</label><g:textField name="price" value="${price}"></g:textField></div>
+        <div><input type="submit" value="Add"/></div>
+    </g:form>
+
+</div>
 </body>
 </html>
