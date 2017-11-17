@@ -12,5 +12,7 @@ class UrlMappings {
         "/" (controller:"product", action:"index")
         "500"(view:'/error')
 
+
+
     }
 }

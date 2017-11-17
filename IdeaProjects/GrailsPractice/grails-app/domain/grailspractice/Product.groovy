@@ -1,9 +1,9 @@
 package grailspractice
 
-class Product {
+class Product implements Serializable {
     String name
     Float price
-
+    static hasMany = [emis:EMIs]
     static constraints = {
     }
 }

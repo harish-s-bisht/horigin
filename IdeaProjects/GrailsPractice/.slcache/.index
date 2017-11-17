@@ -4449,3 +4449,16 @@ n:3701:script1510739305695327156102$_run_closure1$_closure3
 n:2960:script1510739305695327156102$_run_closure2
 n:1117:jline/console/history/MemoryHistory$EntryImpl
 n:264:jline/console/history/History$Entry
+n:2275:org/codehaus/groovy/grails/commons/GrailsApplication$isArtefactOfType$0
+n:17930:grails/converters/JSON
+n:499:org/codehaus/groovy/grails/web/converters/IncludeExcludeConverter
+n:732:org/codehaus/groovy/grails/web/converters/ConfigurableConverter
+n:3082:org/codehaus/groovy/grails/web/converters/AbstractConverter
+n:1199:org/codehaus/groovy/grails/web/converters/configuration/ConverterConfiguration
+n:2079:org/codehaus/groovy/grails/web/converters/Converter$CircularReferenceBehaviour
+n:6054:org/codehaus/groovy/grails/web/json/JSONWriter
+n:812:org/codehaus/groovy/grails/web/json/JSONException
+n:167:org/codehaus/groovy/grails/web/json/JSONElement
+n:2188:org/codehaus/groovy/grails/commons/GrailsApplication$addArtefact$0
+n:906:org/codehaus/groovy/grails/exceptions/InvalidPropertyException
+n:1567:java_io_File$equals$9
