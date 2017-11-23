@@ -4971,3 +4971,16 @@ n:3377:org/springframework/util/ConcurrentReferenceHashMap$EntrySet
 n:3649:org/springframework/util/ConcurrentReferenceHashMap$EntryIterator
 n:2483:sl/org/objectweb/asm/tree/AnnotationNode
 n:772:sl/org/objectweb/asm/tree/IntInsnNode
+n:1352:org/codehaus/groovy/grails/compiler/web/ControllerActionTransformer$1
+n:1408:java_io_File$getCanonicalPath$9
+n:1568:java_io_File$equals$10
+n:2273:org/codehaus/groovy/grails/commons/GrailsApplication$isArtefactOfType
+n:1543:org/apache/commons/logging/Log$isDebugEnabled
+n:1206:org/springframework/web/servlet/view/AbstractCachingViewResolver$1
+n:3030:org/springframework/context/support/MessageSourceAccessor
+n:1588:org/springframework/web/servlet/view/AbstractUrlBasedView
+n:11498:org/springframework/web/servlet/view/AbstractView
+n:290:org/springframework/scripting/ScriptSource
+n:287:org/codehaus/groovy/grails/web/pages/discovery/GroovyPageScriptSource
+n:3359:org/codehaus/groovy/grails/web/pages/discovery/GroovyPageCompiledScriptSource
+n:1831:sl/org/objectweb/asm/tree/TryCatchBlockNode

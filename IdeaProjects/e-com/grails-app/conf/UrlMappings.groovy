@@ -16,7 +16,7 @@ class UrlMappings {
         "500"(view:'/error')
         "404"(view:'/not-found')
 
-        "/find"(controller: "user", action: "find" ,method:"GET")
+        "/getByIds"(controller: "user", action: "getByIds" ,method:"GET")
         "404"(view:"/not-found")
 	}
 }

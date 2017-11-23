@@ -19,9 +19,16 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6">
+            <div>
+                <custom:add a="10" b="5"/>
+            </div>
+           %{-- <div>
+                <custom:addlist list="[10,20,30,40]"/>
+            </div>--}%
             <g:form method="get" controller="user">
                 <g:textField id="searchid" name="id"/>
-                <button class="btn btn-primary" onclick="hitAjax()">Search</button>
+                <div style="font-size: 25px; display: inline; cursor: pointer;" onclick="hitAjax();">Search</div>
+                %{--<button class="btn btn-primary" onclick="hitAjax();">Search</button>--}%
             </g:form>
         </div>
     </div>
@@ -108,16 +115,17 @@
 <script>
     function hitAjax(){
         var id = $('#searchid').val();
-        $.ajax({
-            url: 'find?id='+id,
+         $.ajax({
+            url: 'getByIds?id='+id,
             type: "GET",
             success: function (data) {
-                for(var i=0;i<data.length;i++) {
-                    alert(data[i].name)
-                   /* $('#name').val(data[i].name);
-                    $('#password').val(data[i].password);
-                    $('#email').val(data[i].email);
-                    $('#role').val(data[i].role)*/
+                if(!($.isEmptyObject(data))){
+                    $('#name').val(data.name);
+                    $('#password').val(data.password);
+                    $('#email').val(data.email);
+                    $('#role').val(data.role)
+                }else{
+                    alert("No User Found At id " +id)
                 }
             }
         });

@@ -18,5 +18,18 @@ class MapManipulation {
         maleMap.each{entry->
             println "${entry.key} ${entry.value}"
         }
+        femaleMAp.each{entry->
+            println "${entry.key} ${entry.value}"
+        }
+        def groupingMap=[
+                [name: 'Clark', city: 'London'],
+                [name: 'Sharma', city: 'London'],
+                [name: 'Maradona', city: 'LA'],
+                [name: 'Zhang', city: 'HK'],
+                [name: 'Ali', city: 'HK'], [name: 'Liu', city: 'HK'],
+        ]
+        println groupingMap.groupBy {it.city +"\n"
+
+        }
     }
 }

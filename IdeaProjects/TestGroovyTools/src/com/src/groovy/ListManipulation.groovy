@@ -13,5 +13,13 @@ class ListManipulation {
         }else{
             println "No Such Element Found.."
         }
+        def strList = ["harish","Singh"]
+        println strList*.toUpperCase()
+
+        def subList = list[1,2]
+        subList.each {
+            println it
+        }
+
     }
 }

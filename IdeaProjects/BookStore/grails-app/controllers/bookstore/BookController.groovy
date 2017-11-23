@@ -17,5 +17,10 @@ class BookController {
         bookService.delete(id)
         render view:"index"
     }
+    def byTitle(){
+        String title = params.title
+        List<Book> book = bookService.byTitle(title)
+        render (view: "listB",model: [bookList:book])
+    }
 }
 

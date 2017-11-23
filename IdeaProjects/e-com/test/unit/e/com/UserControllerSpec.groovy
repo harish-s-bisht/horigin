@@ -1,5 +1,6 @@
 package e.com
 
+import e.controller.UserController
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 

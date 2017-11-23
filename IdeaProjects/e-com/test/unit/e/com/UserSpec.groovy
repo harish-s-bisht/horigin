@@ -1,5 +1,6 @@
 package e.com
 
+import e.domain.User
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 

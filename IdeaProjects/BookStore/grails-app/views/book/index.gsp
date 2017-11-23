@@ -22,6 +22,13 @@
     <input type="submit" value="delete"/>
 </g:form>
 
+<g:form method="get" controller="book" action="byTitle">
+    <label>Book-Title</label>
+    <g:textField name="title" value="${title}"/>
+    <input type="submit" value="Find"/>
+</g:form>
+
+
 <g:link controller="book" action="listBook" methods="get">List Book</g:link>
 </body>
 </html>

@@ -11,5 +11,6 @@ class UrlMappings {
         "500"(view:'/error')
         "/create"(controller: "book",action: "create",method: "POST")
         "/listbook"(controller: "book", action: "listBook")
+        "/byTitle"(controller: "book", action: "byTitle")
 	}
 }

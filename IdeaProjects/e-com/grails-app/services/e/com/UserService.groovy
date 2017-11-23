@@ -1,6 +1,6 @@
 package e.com
 
-import grails.transaction.Transactional
+import e.domain.User
 
 //@Transactional
 class UserService {
@@ -11,7 +11,8 @@ class UserService {
     def registerUser(User user){
     user.save()
     }
-    User findById(int id){
+
+    User getByIds(int id){
         User user = User.get(id)
 
     }

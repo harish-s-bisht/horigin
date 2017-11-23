@@ -1,6 +1,7 @@
 package bookstore
 
 import grails.transaction.Transactional
+import org.hibernate.Criteria
 
 @Transactional
 class BookService {
@@ -23,5 +24,11 @@ class BookService {
         Auther a = Auther.get(id)
         a.delete()
 
+    }
+    List<Book> byTitle(String title){
+        def criteria = Book.createCriteria()
+        List<Book> book = criteria{
+            eq("title",title)
+        }
     }
 }
